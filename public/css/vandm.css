@@ -1,0 +1,21 @@
+ul {
+    text-align:left;
+}
+
+#testimonial-slider .testimonial-author .author-info {
+  display:block;
+}
+
+#services .services-list .service-item p {
+  color: rgba(242, 242, 242, 0.8);
+}
+
+#services .services-list .service-item ul {
+  color: rgba(242, 242, 242, 0.8);
+}
+
+header .header-logo a {
+  width: 150px;
+  height: 150px;
+  background-size: 150px 150px;
+}

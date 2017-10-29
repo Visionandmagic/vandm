@@ -1,0 +1,30 @@
+{
+  "name": "v_and_m",
+  "version": "0.0.0",
+  "description": "Vision and Magic",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "",
+    "url": ""
+  },
+  "keywords": [
+    "node",
+    "express",
+    "nunjucks"
+  ],
+  "author": "ksankar",
+  "license": "",
+  "bugs": {
+    "url": ""
+  },
+  "dependencies": {
+    "consolidate": "^0.14.5",
+    "express": "^4.15.2",
+    "node-sass": "^4.5.2",
+    "node-sass-middleware": "^0.11.0",
+    "nunjucks": "^3.0.0"
+  }
+}
