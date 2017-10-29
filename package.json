@@ -7,8 +7,8 @@
     "start": "node index.js"
   },
   "repository": {
-    "type": "",
-    "url": ""
+    "type": "git",
+    "url": "https://github.com/Kailash-Sankar/vandm"
   },
   "keywords": [
     "node",
