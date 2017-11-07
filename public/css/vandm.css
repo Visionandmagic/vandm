@@ -19,3 +19,130 @@ header .header-logo a {
   height: 150px;
   background-size: 150px 150px;
 }
+
+/* overide for black & red theme */
+
+.home-content-tablecell h1,
+.home-content-tablecell h3 {
+  color: #353535;
+}
+
+header .header-logo {
+  background-color: #d01f25;
+}
+
+.home-content-tablecell .more .button {
+    border-color: #D01F25;
+    color: #d01f25;
+}
+
+.home-content-tablecell .more .button:hover {
+  color: #353535;
+}
+
+.home-social-list::before {
+  background-color: #d01f25;
+}
+
+.home-social-list li a,
+.home-social-list li  {
+  color: #d01f25;
+}
+
+.scroll-icon {
+  color: #d01f25 !important;
+}
+
+#services .services-list .icon i {
+  color: #d01f25;
+}
+
+#header-menu-trigger {
+  color: #d01f25;
+}
+
+#header-menu-trigger.opaque,
+#header-menu-trigger.opaque .header-menu-text,
+#go-top a {
+  background-color: rgb(53, 53, 53,0.2);
+}
+
+#header-menu-trigger.opaque:hover,
+#header-menu-trigger.opaque .header-menu-text:hover {
+  background-color: rgb(53, 53, 53,0.5);
+}
+
+#header-menu-trigger .header-menu-icon {
+  background-color: #d01f25;
+}
+
+#go-top a i {
+  color: #d01f25;
+}
+
+#go-top a:hover i {
+  color:#FFFFFF;
+}
+
+#go-top a:hover, #go-top a:focus {
+    background-color: rgb(53, 53, 53,0.5);
+    color: #FFFFFF;
+}
+
+#services .overlay {
+  background-color: rgba(242, 237, 237, 0.7);
+}
+
+#services .gradient-overlay {
+  background: -moz-linear-gradient(top, rgba(222, 219, 219, 0.9) 0%, transparent 100%);
+  background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.85) 0%, transparent 100%);
+  background: linear-gradient(to bottom, rgba(237, 234, 234, 0.9) 0%, transparent 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d9000000', endColorstr='#00000000',GradientType=0 );
+}
+
+#services .services-list .service-item p,
+#services .services-list .service-item ul {
+  color: #353535;
+}
+
+#services .section-intro h1,
+#services .section-intro h3,
+#services .services-list .h05 {
+  color: #353535;
+}
+
+#services .section-intro .lead {
+  color: rgb(53, 53, 53,0.8);
+}
+
+#contact .overlay {
+  background-color: #ececec;
+}
+
+#contact .section-intro h3,
+#contact .section-intro p.lead {
+  color: rgb(53, 53, 53,0.7);
+}
+
+#contact .section-intro h1,
+.contact-content h5,
+.contact-info {
+  color: #353535;
+}
+
+#contact button.submitform {
+  background: #d01f25;
+}
+
+#contact input[type="text"],
+#contact input[type="password"],
+#contact input[type="email"],
+#contact textarea {
+  background: rgb(53, 53, 53,0.5);
+}
+
+button.submitform:focus,
+#contact button.submitform:hover,
+#contact button.submitform:focus {
+    background: #FFFFFF;
+}
