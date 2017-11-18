@@ -154,3 +154,9 @@ button.submitform:focus,
 #testimonial-slider p {
   font-size: 2rem;
 }
+
+
+.form-frame {
+  width:600px;
+  height:600px;
+}
