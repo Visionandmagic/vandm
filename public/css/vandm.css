@@ -155,8 +155,14 @@ button.submitform:focus,
   font-size: 2rem;
 }
 
-
 .form-frame {
   width:600px;
   height:600px;
+}
+
+#services .section-intro h3,
+#about h3,
+#testimonials h2,
+#contact .section-intro h3 {
+ color: #d01f25;
 }
