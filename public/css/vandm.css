@@ -14,12 +14,6 @@ ul {
   color: rgba(242, 242, 242, 0.8);
 }
 
-header .header-logo a {
-  width: 150px;
-  height: 150px;
-  background-size: 150px 150px;
-}
-
 /* overide for black & red theme */
 
 .home-content-tablecell h1,
@@ -121,7 +115,7 @@ header .header-logo {
 
 #contact .section-intro h3,
 #contact .section-intro p.lead {
-  color: rgb(53, 53, 53,0.7);
+  color: #353535;
 }
 
 #contact .section-intro h1,

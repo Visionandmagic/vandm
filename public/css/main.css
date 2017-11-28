@@ -1671,6 +1671,12 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
   }
 }
 
+header .header-logo a {
+  width: 150px;
+  height: 150px;
+  background-size: 150px 150px;
+}
+
 /* -------------------------------------------------------------------
  * responsive:
  * home section
@@ -1756,7 +1762,15 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
   .home-social-list::before {
     height: 24px;
   }
+
+  header .header-logo a {
+    width: 100px;
+    height: 100px;
+    background-size: 100px 100px;
+ }
+
 }
+
 @media only screen and (max-width: 400px) {
   #home {
     min-height: 654px;
@@ -1772,6 +1786,13 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
   .home-content-tablecell h1 {
     font-size: 3.6rem;
   }
+
+  header .header-logo a {
+    width: 70px;
+    height: 70px;
+    background-size: 70px 70px;
+ }
+
 }
 
 
@@ -1816,6 +1837,7 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
   color: #2e383f;
   margin-top: 6rem;
 }
+
 
 /* -------------------------------------------------------------------
  * responsive:
