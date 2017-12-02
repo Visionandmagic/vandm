@@ -18,17 +18,19 @@ ul {
 
 .home-content-tablecell h1,
 .home-content-tablecell h3 {
-  color: #353535;
+  color: #191919;
 }
 
 header .header-logo {
   background-color: #d01f25;
 }
 
+/*
 .home-content-tablecell .more .button {
     border-color: #D01F25;
     color: #d01f25;
 }
+
 
 .home-content-tablecell .more .button:hover {
   color: #353535;
@@ -46,6 +48,7 @@ header .header-logo {
 .scroll-icon {
   color: #d01f25 !important;
 }
+*/
 
 #services .services-list .icon i {
   color: #d01f25;
@@ -67,7 +70,25 @@ header .header-logo {
 }
 
 #header-menu-trigger .header-menu-icon {
-  background-color: #d01f25;
+  background-color: #fcfafd;
+}
+
+header .header-logo {
+  position: relative;
+}
+
+header .header-logo a {
+  margin: auto;
+  width: 300px;
+  height: 300px;
+  background-size: 300px 300px;
+  background-position: center;
+  left: -3rem;
+  position: relative;
+}
+
+.home-content-tablecell h1 {
+  font-size:5rem;
 }
 
 #go-top a i {
@@ -159,4 +180,12 @@ button.submitform:focus,
 #testimonials h2,
 #contact .section-intro h3 {
  color: #d01f25;
+}
+
+.vl {
+  width: 50px;
+  height: 4px;
+  border-top: 4px solid #191919;
+  display: inline-block;
+  line-height: 1%;
 }
