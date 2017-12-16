@@ -1237,8 +1237,12 @@ header {
   position: absolute;
   left: 0;
   top: 0;
+}
+
+#header-menu-trigger {
   z-index: 700;
 }
+
 header .row {
   height: auto;
   max-width: 1300px;

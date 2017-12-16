@@ -193,22 +193,6 @@ button.submitform:focus,
 }
 
 
-@media only screen and (max-width: 400px) {
-  header .header-logo a {
-    width: 120px;
-    height: 120px;
-    background-size: 120px 120px;
-  }
-
-  .home-content-tablecell h1 {
-      font-size: 2rem;
-  }
-
-  .home-content-tablecell h1 br {
-    display: block;
- }
-
-}
 
 @media only screen and (max-width: 500px) {
 
@@ -225,4 +209,22 @@ button.submitform:focus,
   .home-content-tablecell h1 br {
     display: block;
   }
+}
+
+
+@media only screen and (max-width: 400px) {
+  header .header-logo a {
+    width: 120px;
+    height: 120px;
+    background-size: 120px 120px;
+  }
+
+  .home-content-tablecell h1 {
+      font-size: 2rem;
+  }
+
+  .home-content-tablecell h1 br {
+    display: block;
+ }
+
 }
