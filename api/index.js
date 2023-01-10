@@ -19,7 +19,7 @@ app.use(sassMiddleware({
 }));
 
 
-app.use(express.static('public'));
+// app.use(express.static('public'));
 
 // Handler for internal server errors
 function errorHandler(err, req, res, next) {
