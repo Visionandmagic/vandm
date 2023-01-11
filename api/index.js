@@ -18,8 +18,9 @@ app.use(sassMiddleware({
     prefix:  '/css'  // Where prefix is at <link rel="stylesheets" href="prefix/style.css"/>
 }));
 
+app.use('/', express.static('/public/'));
 
-app.use(express.static('public'));
+// app.use(express.static('public'));
 
 // Handler for internal server errors
 function errorHandler(err, req, res, next) {
