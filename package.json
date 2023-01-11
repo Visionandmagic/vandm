@@ -26,5 +26,6 @@
     "node-sass": "^8.0.0",
     "node-sass-middleware": "^1.0.1",
     "nunjucks": "^3.0.0"
-  }
+  },
+  "engines": { "node": "16.x" }
 }
